@@ -51,6 +51,7 @@
 			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
 			this.ofd = new System.Windows.Forms.OpenFileDialog();
 			this.sfd = new System.Windows.Forms.SaveFileDialog();
+			this.calendarView1 = new polyLib.UI.CalendarView();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -234,11 +235,20 @@
 			// 
 			this.sfd.Filter = "pmCalendar Database|*.adb";
 			// 
+			// calendarView1
+			// 
+			this.calendarView1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.calendarView1.Location = new System.Drawing.Point(0, 49);
+			this.calendarView1.Name = "calendarView1";
+			this.calendarView1.Size = new System.Drawing.Size(549, 242);
+			this.calendarView1.TabIndex = 2;
+			// 
 			// MainUI
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(549, 291);
+			this.Controls.Add(this.calendarView1);
 			this.Controls.Add(this.toolStrip1);
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
@@ -280,6 +290,7 @@
 		private System.Windows.Forms.ToolStrip toolStrip1;
 		private System.Windows.Forms.OpenFileDialog ofd;
 		private System.Windows.Forms.SaveFileDialog sfd;
+		private polyLib.UI.CalendarView calendarView1;
 	}
 }
 

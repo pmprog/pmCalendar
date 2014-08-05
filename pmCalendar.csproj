@@ -33,11 +33,11 @@
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.7.4114.6375, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libraries.NET\BouncyCastle.Crypto.dll</HintPath>
+      <HintPath>\Libraries.NET\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="polyLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Libraries.NET\polyLib.dll</HintPath>
+      <HintPath>\Libraries.NET\polyLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
